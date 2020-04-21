@@ -47,6 +47,7 @@ int main() {
 		memset(c, 0, sizeof c);
 		memset(a, 0, sizeof a);
 		memset(b, 0, sizeof b);
+		memset(vals, 0, sizeof vals);
 		a[0] = x[1];
 		for (i = 1; i < strlen(x) / 2; i++) {
 			a[i] = x[2 * i+1];
